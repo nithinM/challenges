@@ -6,7 +6,7 @@
 <br />
 
 
-**Tamboon React** is a code challenge for frontend developer.
+**Tamboon React** is a code challenge for GO.X frontend developer.
 
 ## Scenario
 Once upon a time.. nope!  
@@ -27,14 +27,16 @@ Well, grap your guns, stock up your food and bring down your armor. We gonna nee
 - [ ] Make the donation feature works correctly.
   - Amount in all donations should be displayed correctly despite users close and come back later.
   - Database (db.json) should have the new valid data when paid.
+- [ ] Production quality code is expected
+- [ ] Unit tests is a must  
 - [ ] Refactor the code to be more readable and enhance reusability.
 - [ ] Use only [styled-component](https://www.styled-components.com/) for styling part.
-- [ ] Write a nice commit message and order it well.
 - [ ] Display well in most modern browser (Google Chrome, Safari, Firefox).
+
 
 #### Bonus
 - [ ] Supporting different screen sizes (responsive).
-- [ ] Write helpers or components unit tests with [jest](https://facebook.github.io/jest/).
+- [ ] Write unit tests with [jest](https://facebook.github.io/jest/).
 
 ## Rules
 Desire to win the war? Well, to make it a little more fun, please remember that
@@ -59,7 +61,7 @@ Desire to win the war? Well, to make it a little more fun, please remember that
 
 
 ## Surprise us!
-Ready to surprise us what you have done? Email your changes as a [git format-patch](https://git-scm.com/docs/git-format-patch) to jobs@omise.co.  
+Ready to surprise us what you have done? Email your changes as a [git format-patch](https://git-scm.com/docs/git-format-patch) to theesit@omise.co
 Please remember that your patch must consist of multiple separate commits. Your commit message must communicate clearly what has been done in each commit.
 
 If you notice more bugs in the original implementation you can add fixes for those as well. You won't be penalized if you don't. However we ask you not to add more features than the one given in the mission list.
