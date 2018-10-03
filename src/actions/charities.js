@@ -1,4 +1,5 @@
 import axios from "axios";
+import apiEndPoints from "../config/apiEndPoints";
 
 // SET_CHARITIES
 export const setCharities = charities => ({
@@ -8,7 +9,7 @@ export const setCharities = charities => ({
 
 export const startSetCharities = () => dispatch =>
   axios
-    .get("http://localhost:3001/charities")
+    .get(`${apiEndPoints}charities`)
     .then(resp => dispatch(setCharities(resp.data)))
     .catch(error => {
       console.log(error); // eslint-disable-line

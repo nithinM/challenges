@@ -1,4 +1,5 @@
 import axios from "axios";
+import apiEndPoints from "../config/apiEndPoints";
 
 export const addDonation = donation => ({
   type: "ADD_DONATION",
@@ -10,7 +11,7 @@ export const startAddDonation = (donationData = {}) => dispatch => {
   const donation = { charitiesId, amount, currency };
 
   return axios
-    .post("http://localhost:3001/payments", {
+    .post(`${apiEndPoints}payments`, {
       ...donation
     })
     .then(() => {
@@ -32,7 +33,7 @@ export const setDonations = donations => ({
 
 export const startSetDonations = () => dispatch =>
   axios
-    .get("http://localhost:3001/payments")
+    .get(`${apiEndPoints}payments`)
     .then(resp => dispatch(setDonations(resp.data)))
     .catch(error => {
       console.log(error); // eslint-disable-line
