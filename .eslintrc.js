@@ -37,6 +37,8 @@ module.exports = {
         controlComponents: ["CustomInput"],
         depth: 3
       }
-    ]
+    ],
+    "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
+    "import/prefer-default-export": "off"
   }
 };

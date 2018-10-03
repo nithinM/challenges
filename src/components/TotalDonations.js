@@ -37,7 +37,7 @@ const TotalDonations = ({ donations }) => {
           <DonationWrapper>
             <DonationText>All Donations</DonationText>
             <DonationAmount>
-              {totalDonations === 0 ? (
+              {totalDonations === "" ? (
                 <SmallText>No donation</SmallText>
               ) : (
                 totalDonations
