@@ -5,7 +5,7 @@ const Card = styled.div`
   border-radius: 4px;
   display: inline-block;
   height: ${props => (props.height ? props.height : "350px")};
-  margin: 20px;
+  margin: 20px 0;
   position: relative;
   width: 100%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
